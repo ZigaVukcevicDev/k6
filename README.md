@@ -47,9 +47,10 @@ The term comes from hardware testing, where engineers powered on a device and ch
 - Does main page loads?
 - Can user login?
 
-#### IV. Virtual users and execution time
+#### IV. Users and time
 
 - Number of virtual users:
+  
   Smoke testing is not about concurrency or load — typically performed with **1 user** or simulated user session.
 
 - Execution time:
