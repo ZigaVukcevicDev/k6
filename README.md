@@ -27,11 +27,11 @@
 
 **Smoke test is a preliminary test** that checks whether the **basic and critical functionalities** of a software build **work correctly**. It is used to verify that the software is stable enough for further, more detailed testing.
 
- The term comes from hardware testing, where engineers powered on a device and checked if smoke came out — if it did, testing stopped immediately.
-
 > Easy explanation 
 >
 > Checking if a bridge is safe enough for cars and trucks.
+
+The term comes from hardware testing, where engineers powered on a device and checked if smoke came out — if it did, testing stopped immediately.
 
 #### II. Key characteristics
 
@@ -50,8 +50,8 @@
 #### IV. Virtual users and execution time
 
 - Number of virtual users:
-  
   Smoke testing is not about concurrency or load — typically performed with **1 user** or simulated user session.
+
 - Execution time:
 
   Smoke tests should be **fast** - ideal duration is a **few minutes** (e.g., 5–15 min max), depending on project complexity, to quickly give feedback on build health.
@@ -79,7 +79,7 @@ export default function () {
 }
 ```
 
-b) Runnable example [smoke-test.js](smoke-test.js).
+b) Runnable example [smoke-test.js](smoke-test.js)
 
 ```bash
 k6 run smoke-test.js
