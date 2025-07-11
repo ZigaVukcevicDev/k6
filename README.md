@@ -23,7 +23,7 @@
 
 ### Smoke test
 
-#### A. Definition
+#### I. Definition
 
 **Smoke test is a preliminary test** that checks whether the **basic and critical functionalities** of a software build **work correctly**. It is used to verify that the software is stable enough for further, more detailed testing.
 
@@ -33,7 +33,7 @@
 >
 > Checking if a bridge is safe enough for cars and trucks.
 
-#### B. Key characteristics
+#### II. Key characteristics
 
 - Shallow and broad: Focuses on covering major features, not detailed behavior.
 - Quick execution: Designed to run quickly to validate build stability.
@@ -41,13 +41,13 @@
 - Automated or manual: Can be automated but is often a simple checklist when manual.
 - Frequent execution: Typically run on every new build to catch show-stopper issues early.
 
-#### C. Practical examples
+#### III. Practical examples
 
 - Is API returning response?
 - Does main page loads?
 - Can user login?
 
-#### D. Virtual users and execution time
+#### IV. Virtual users and execution time
 
 - Number of virtual users:
   
@@ -56,7 +56,7 @@
 
   Smoke tests should be **fast** - ideal duration is a **few minutes** (e.g., 5–15 min max), depending on project complexity, to quickly give feedback on build health.
 
-#### E. Examples with k6
+#### V. Examples with k6
 
 a) Simple example
 
@@ -87,18 +87,10 @@ k6 run smoke-test.js
 
 
 <!--
-- smoke test (checking if everything is working as expected, just 1 VU), can be run on cronjob on production
-
 - performance tests
     significant number of users
 
 - load tests
 - stress tests
 - spike tests
-
-## How to run
-
-```bash
-k6 run first-script.js
-```
 -->
