@@ -1,5 +1,10 @@
 # k6
 
+## Table of contents
+
+- Types of tests
+    - [Smoke test](#smoke-test)
+
 <!--
 ## Vocabulary
 
@@ -30,11 +35,11 @@
 
 #### B. Key characteristics
 
-- **Shallow and broad:** Focuses on covering major features, not detailed behavior.
-- **Quick execution:** Designed to run quickly to validate build stability.
-- **Gatekeeper:** Acts as a gate before proceeding to deeper testing.
-- **Automated or manual:** Can be automated but is often a simple checklist when manual.
-- **Frequent execution:** Typically run on every new build to catch show-stopper issues early.
+- Shallow and broad: Focuses on covering major features, not detailed behavior.
+- Quick execution: Designed to run quickly to validate build stability.
+- Gatekeeper: Acts as a gate before proceeding to deeper testing.
+- Automated or manual: Can be automated but is often a simple checklist when manual.
+- Frequent execution: Typically run on every new build to catch show-stopper issues early.
 
 #### C. Practical examples
 
@@ -51,7 +56,9 @@
 
   Smoke tests should be **fast** - ideal duration is a **few minutes** (e.g., 5–15 min max), depending on project complexity, to quickly give feedback on build health.
 
-#### D. Example with k6
+#### E. Examples with k6
+
+a) Simple example
 
 ```js
 import http from 'k6/http';
@@ -70,6 +77,14 @@ export default function () {
     'body is not empty': (res) => res.body.length > 0,
   });
 }
+```
+
+b) Real example
+
+Live and runnable example [smoke-test.js](smoke-test.js).
+
+```bash
+k6 run smoke-test.js
 ```
 
 
