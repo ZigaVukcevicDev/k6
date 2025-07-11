@@ -79,9 +79,7 @@ export default function () {
 }
 ```
 
-b) Real example
-
-Live and runnable example [smoke-test.js](smoke-test.js).
+b) Runnable example [smoke-test.js](smoke-test.js).
 
 ```bash
 k6 run smoke-test.js
