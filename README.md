@@ -97,7 +97,7 @@ k6 run smoke-test.js
 
 > Easy explanation 
 >
-> Checking if a bridge can safely handle the expected daily traffic flow over time.
+> Checking if a bridge can safely carry the daily traffic of cars and trucks over time.
 
 #### II. Key characteristics
 
