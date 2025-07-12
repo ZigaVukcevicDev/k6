@@ -58,7 +58,7 @@ Failing requests (404):
 ## Data transferred
 
 - `17 KB` received
-- `2.2 KB` sent
+- `2,2 KB` sent
   
   → Consistent with a low-traffic single-user test.
 
