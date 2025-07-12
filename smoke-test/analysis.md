@@ -7,6 +7,8 @@
 - [Overall analysis](#overall-analysis)
 - [Suggestions / takeaways](#suggestions-takeaways)
 
+Output from k6:
+
 ![result](../smoke-test/result.png)
 
 ## Test summary
