@@ -20,10 +20,6 @@ _High throughput is good, low is bad._
 
 How many times the test function executes (e.g., one iteration = one simulated user flow like login).
 
-## Sleep
-
-Pause between actions in a test to simulate user think-time or pacing (e.g., `sleep(1)` means 1 second pause).
-
 ## Percentile
 
 E.g., `p(90)` or `p(95)` — statistical measure indicating that X% of requests completed in Y ms or less.
@@ -50,3 +46,7 @@ Gradual increase or decrease in the number of virtual users during a test.
 
 - _Ramp-up_: Avoids sudden spikes.
 - _Ramp-down_: Allows graceful termination.
+
+## Sleep
+
+Pause between actions in a test to simulate user think-time or pacing (e.g., `sleep(1)` means 1 second pause).
