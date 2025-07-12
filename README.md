@@ -140,13 +140,13 @@ export default function () {
 }
 ```
 
-b) Runnable example [of load test](load-test/script.js)
+b) Runnable example of [load test](load-test/script.js)
 
 ```bash
 k6 run load-test/script.js
 ```
 
-<!-- TBD ![Load test](./laod-test/result.png) -->
+See [result and analysis of test run](load-test/analysis.md).
 
 ## Vocabulary
 

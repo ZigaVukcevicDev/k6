@@ -1,5 +1,8 @@
-# Smoke test analysis
+# Load test analysis
 
+TBD
+
+<!--
 Table of contents
 
 - [Test summary](#test-summary)
@@ -11,7 +14,7 @@ Table of contents
 
 Output from k6:
 
-![result](../smoke-test/result.png)
+![result](../load-test/result.png)
 
 ## Test summary
 
@@ -77,3 +80,4 @@ Failing requests (404 HTTP error):
 - If you intend to ignore 404s or treat them as valid responses, wrap requests in `check()` conditions (e.g., `res.status === 404` || `res.status === 200`).
 - DNS resolution failures should normally be treated as serious issues unless expected (which they were here for demo purposes).
 - Response times look very healthy (~110–145 ms range).
+-->
