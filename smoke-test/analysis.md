@@ -1,4 +1,11 @@
-# Smoke test analysis
+# Analysis
+
+- [Test summary](#test-summary)
+- [Observed behavior](#observed-behavior)
+- [Metrics highlights](#metrics-highlights)
+- [Data transferred](#data-transferred)
+- [Overall analysis](#overall-analysis)
+- [Suggestions / takeaways](#suggestions-takeaways)
 
 ![result](../smoke-test/result.png)
 
