@@ -19,7 +19,7 @@ You ran a k6 script with:
 
 - 1 virtual user (vus: 1)
 - Duration: 20 seconds
-- Scenario: multiple requests to different URLs with sleep(1) after each request.
+- Scenario: multiple requests to different URLs with `sleep(1)` after each request.
 
 ## Observed behavior
 
@@ -28,14 +28,12 @@ Valid requests:
 - https://quickpizza.grafana.com/contacts.php
 - https://quickpizza.grafana.com/news.php
 
-    These returned successfully.
-
 Failing requests (DNS resolution failures):
 - https://quickpizza.grafana.com.local
   
   k6 warning: `lookup quickpizza.grafana.com.local: no such host.`
 
-Failing requests (404 HTTP error):
+Failing requests (404):
 - https://quickpizza.grafana.com/example.php
   
   `404` response — k6 counted this as a failed request (because by default k6 treats 4xx/5xx as failed unless handled explicitly in checks).
@@ -44,7 +42,7 @@ Failing requests (404 HTTP error):
 
 - `http_req_failed: 40%` → 4 of 10 requests failed:
     - 2 due to DNS resolution errors (`no such host`),
-    - 2 due to HTTP 404 (not found).
+    - 2 due to 404 (not found).
 - Throughput:
     - `http_reqs: 10` total requests.
     - `0.464 req/s` request rate.
