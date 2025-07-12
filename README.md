@@ -68,11 +68,15 @@ export default function () {
 }
 ```
 
-b) Runnable example [smoke-test.js](smoke-test.js)
+b) Runnable example [of smoke test](smoke-test/script.js)
 
 ```bash
-k6 run smoke-test.js
+k6 run smoke-test/script.js
 ```
+
+![Smoke test](smoke-test/result.png)
+
+See [analysis of test run](smoke-test/analysis.md).
 
 ### Load test
 
@@ -138,11 +142,13 @@ export default function () {
 }
 ```
 
-b) Runnable example [load-test.js](load-test.js)
+b) Runnable example [of load test](load-test/script.js)
 
 ```bash
-k6 run load-test.js
+k6 run load-test/script.js
 ```
+
+<!-- TBD ![Load test](./laod-test/result.png) -->
 
 ## Vocabulary
 
