@@ -74,7 +74,7 @@ b) Runnable example of [smoke test](smoke-test/script.js)
 k6 run smoke-test/script.js
 ```
 
-See [result](smoke-test/result.png) and [analysis of test run](smoke-test/analysis.md).
+See [result and analysis of test run](smoke-test/analysis.md).
 
 ### Load test
 
