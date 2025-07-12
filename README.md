@@ -6,7 +6,7 @@ The examples help you quickly understand what tests are for, how to write, execu
 
 - Types of tests
     - [Smoke test](smoke-test/text.md)
-    - [Load test](load-test/definition.md)
+    - [Load test](load-test/text.md)
 
 To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 
