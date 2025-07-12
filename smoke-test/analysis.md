@@ -1,6 +1,6 @@
 # Smoke test analysis
 
-![result](smoke-test/result.png)
+![result](../smoke-test/result.png)
 
 ## Test summary
 
