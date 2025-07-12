@@ -7,7 +7,7 @@ Table of contents
 - [Metrics highlights](#metrics-highlights)
 - [Data transferred](#data-transferred)
 - [Overall analysis](#overall-analysis)
-- [Suggestions / takeaways](#suggestions-takeaways)
+- [Suggestions / takeaways](#suggestions--takeaways)
 
 Output from k6:
 
