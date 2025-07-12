@@ -5,7 +5,7 @@ This repository provides example scripts and instructions for **running tests** 
 The examples help you quickly understand what tests are for, how to write, execute, and analyze tests, with a focus on simplicity and practical application.
 
 - Types of tests
-    - [Smoke test](smoke-test/definition.md)
+    - [Smoke test](smoke-test/text.md)
     - [Load test](load-test/definition.md)
 
 To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).

@@ -1,5 +1,22 @@
 # Load test
 
+Table of contents
+
+- [I. Definition](#i-definition)
+- [II. Key characteristics](#ii-key-characteristics)
+- [III. Practical examples](#iii-practical-examples)
+- [IV. Users and time](#iv-users-and-time)
+- [V. Examples with k6](#v-examples-with-k6)
+  - [a) Simple example](#a-simple-example)
+  - [b) Runnable example](#b-runnable-example)
+    - [Analysis](#analysis)
+      - [Test summary](#test-summary)
+      - [Observed behavior](#observed-behavior)
+      - [Metrics highlights](#metrics-highlights)
+      - [Data transferred](#data-transferred)
+      - [Overall analysis](#overall-analysis)
+      - [Suggestions / takeaways](#suggestions--takeaways)
+
 ## I. Definition
 
 **Load test simulates expected user traffic to measure the performance of a system under normal conditions**. It ensures that the system can handle concurrent users and transactions within acceptable performance thresholds.
@@ -33,7 +50,7 @@
 
 ## V. Examples with k6
 
-a) Simple example
+### a) Simple example
 
 ```js
 import http from 'k6/http';
@@ -62,10 +79,40 @@ export default function () {
 }
 ```
 
-b) Runnable example of [load test](script.js)
+### b) Runnable example
+
+See script for [load test](script.js).
 
 ```bash
 k6 run load-test/script.js
 ```
 
-See [result and analysis of test run](analysis.md).
+#### Analysis
+
+Output from k6:
+
+TODO
+
+##### Test summary
+
+TODO
+
+##### Observed behavior
+
+TODO
+
+##### Metrics highlights
+
+TODO
+
+##### Data transferred
+
+TODO
+
+##### Overall analysis
+
+TODO
+
+##### Suggestions / takeaways
+
+TODO
