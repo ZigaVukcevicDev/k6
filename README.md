@@ -68,15 +68,13 @@ export default function () {
 }
 ```
 
-b) Runnable example [of smoke test](smoke-test/script.js)
+b) Runnable example of [smoke test](smoke-test/script.js)
 
 ```bash
 k6 run smoke-test/script.js
 ```
 
-![Smoke test](smoke-test/result.png)
-
-See [analysis of test run](smoke-test/analysis.md).
+See [result](smoke-test/result.png) and [analysis of test run](smoke-test/analysis.md).
 
 ### Load test
 
