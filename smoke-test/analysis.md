@@ -1,5 +1,7 @@
 # Analysis
 
+Table of contents
+
 - [Test summary](#test-summary)
 - [Observed behavior](#observed-behavior)
 - [Metrics highlights](#metrics-highlights)
