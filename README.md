@@ -4,13 +4,12 @@ Repository provides example scripts and instructions for **running tests** using
 
 The examples help you **quickly understand** what each test is for, how to write, execute, and analyze tests, with a focus on simplicity and practical application.
 
-- Types of tests
-    - [Smoke test](smoke-test/text.md)
-    - [Load test](load-test/text.md)
-    - [Stress test (TODO)]()
-    - [Spike test (TODO)]()
-    - [Breakpoint test (TODO)]()
-    - [Soak test (TODO)]()
+- [Smoke test](smoke-test/text.md)
+- [Load test](load-test/text.md)
+- [Stress test (TODO)]()
+- [Spike test (TODO)]()
+- [Breakpoint test (TODO)]()
+- [Soak test (TODO)]()
 
 > To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 
