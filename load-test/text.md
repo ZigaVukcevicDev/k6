@@ -46,7 +46,7 @@ Table of contents
 
 - Execution time:
 
-  Usually between 10 minutes to **1 hour (or longer)**, long enough to measure system behavior under sustained load.
+  Usually between **10 minutes to 1 hour** (or longer), long enough to measure system behavior under sustained load.
 
 ## V. Examples with k6
 
