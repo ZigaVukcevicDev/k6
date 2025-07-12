@@ -4,6 +4,7 @@
 
 - Types of tests
     - [Smoke test](#smoke-test)
+    - [Load test](#load-test)
 
 <!--
 ## Vocabulary
