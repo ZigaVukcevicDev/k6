@@ -1,5 +1,7 @@
 # k6
 
+This repository provides example scripts and instructions for running tests using k6, a modern load testing tool. The examples help you quickly understand how to write, execute, and analyze tests, with a focus on simplicity and practical application.
+
 - Types of tests
     - [Smoke test](smoke-test/definition.md)
     - [Load test](load-test/definition.md)
