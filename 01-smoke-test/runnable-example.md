@@ -13,7 +13,7 @@ Table of contents
 
 ## Script and how to run
 
-See [script for k6](script.js).
+See [script for k6](script.js). To run use:
 
 ```bash
 k6 run 01-smoke-test/script.js
