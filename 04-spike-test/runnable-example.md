@@ -1,4 +1,4 @@
-# Runnable example of soak test
+# Runnable example of spike test
 
 Table of contents
 
@@ -16,7 +16,7 @@ Table of contents
 See [script for k6](script.js). To run use:
 
 ```bash
-k6 run 05-soak-test/script.js
+k6 run 04-spike-test/script.js
 ```
 
 ## Analysis

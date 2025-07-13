@@ -1,4 +1,4 @@
-# Runnable example of breakpoint test
+# Runnable example of soak test
 
 Table of contents
 
@@ -16,7 +16,7 @@ Table of contents
 See [script for k6](script.js). To run use:
 
 ```bash
-k6 run 04-breakpoint-test/script.js
+k6 run 06-soak-test/script.js
 ```
 
 ## Analysis
