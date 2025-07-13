@@ -21,6 +21,8 @@ TODO
 
 ## II. Scheme
 
+TODO
+
 ![Chart](chart.png)
 
 ## III. Key characteristics
