@@ -56,7 +56,7 @@ TODO
 See script for [soak test](script.js).
 
 ```bash
-k6 run soak-test/script.js
+k6 run 05-soak-test/script.js
 ```
 
 #### Analysis

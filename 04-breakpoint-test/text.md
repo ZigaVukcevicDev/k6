@@ -56,7 +56,7 @@ TODO
 See script for [breakpoint test](script.js).
 
 ```bash
-k6 run breakpoint-test/script.js
+k6 run 04-breakpoint-test/script.js
 ```
 
 #### Analysis

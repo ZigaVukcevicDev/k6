@@ -79,7 +79,7 @@ export default function () {
 See script for [smoke test](script.js).
 
 ```bash
-k6 run smoke-test/script.js
+k6 run 01-smoke-test/script.js
 ```
 
 #### Analysis

@@ -87,7 +87,7 @@ export default function () {
 See script for [load test](script.js).
 
 ```bash
-k6 run load-test/script.js
+k6 run 02-load-test/script.js
 ```
 
 #### Analysis

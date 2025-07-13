@@ -4,13 +4,13 @@ Repository provides example scripts and instructions for **running tests** using
 
 The examples help you **quickly understand** what each test is for, how to write, execute, and analyze tests, with a focus on simplicity and practical application.
 
-| Type                             | Easy explanation                                                           | No. of virtual users | Execution time   |
-| -------------------------------- | -------------------------------------------------------------------------- | -------------------- | ---------------- |
-| [Smoke test](smoke-test/text.md) | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
-| [Load test](load-test/text.md)   | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10 min to 1 hour |
-| Stress test                      | TODO                                                                       | TODO                 | TODO             |
-| Breakpoint test                  | TODO                                                                       | TODO                 | TODO             |
-| Soak test                        | TODO                                                                       | TODO                 | TODO             |
+| Type                                          | Easy explanation                                                           | No. of virtual users | Execution time   |
+| --------------------------------------------- | -------------------------------------------------------------------------- | -------------------- | ---------------- |
+| [Smoke test](01-smoke-test/text.md)           | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
+| [Load test](02-load-test/text.md)             | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10 min to 1 hour |
+| [Stress test](03-stress-test/text.md)         | TODO                                                                       | TODO                 | TODO             |
+| [Breakpoint test](04-breakpoint-test/text.md) | TODO                                                                       | TODO                 | TODO             |
+| [Soak test](05-soak-test/text.md)             | TODO                                                                       | TODO                 | TODO             |
 
 > To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 

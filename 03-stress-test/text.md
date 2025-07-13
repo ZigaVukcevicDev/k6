@@ -56,7 +56,7 @@ TODO
 See script for [stress test](script.js).
 
 ```bash
-k6 run stress-test/script.js
+k6 run 03-stress-test/script.js
 ```
 
 #### Analysis
