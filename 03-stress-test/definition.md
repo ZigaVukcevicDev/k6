@@ -28,7 +28,7 @@ Table of contents
 
 ## III. Practical examples
 
-- How does the system perform when subjected to 1.5× or 2× peak traffic for an hour?
+- How does the system perform when subjected to 1.5x or 2x peak traffic for an hour?
 - Does the application slow down gracefully or fail suddenly under heavy stress?
 
 ## IV. Users and time

@@ -27,24 +27,40 @@ Output from k6:
 
 ### Test summary
 
-TODO
+- Stress profile:
+  - Up to 75 virtual users (VUs).
+  - 3 stages over 3m40s, followed by a 30s graceful ramp-down.
+  - Total duration: ~4m10s (including graceful stops).
+- 6,656 iterations completed.
 
 ### Observed behavior
 
-TODO
+- The system successfully handled up to 75 concurrent VUs.
+- No request failures (`http_req_failed=0.00%`).
+- Response times stayed well below defined thresholds throughout the test.
 
 ### Metrics highlights
 
-TODO
+- Requests: 13,312 total (approx. 60 requests/sec).
+- Response time:
+  - Average: 131.23ms
+  - Median: 130.51ms
+  - 95th percentile (p95): 140.19ms (well below 1000ms threshold).
+- Iteration duration:
+  - Average: 2.26s
+  - 95th percentile: 2.29s.
 
 ### Data transferred
 
-TODO
+Total received: ~20 MB (~89 kB/sec).
+Total sent: ~2.1 MB (~9.5 kB/sec).
 
 ### Overall analysis
 
-TODO
+The service maintained stable performance under gradually increasing load, peaking at 75 VUs without degradation or failures. Response times remained consistent and comfortably under threshold targets, indicating solid scalability.
 
 ### Suggestions / takeaways
 
-TODO
+- The system handled the stress conditions without performance issues.
+- Further testing could explore higher VU limits or longer sustained periods to find actual system limits.
+- Monitoring backend resource utilization (CPU, memory, DB load) during the test would provide deeper insight into system bottlenecks.
