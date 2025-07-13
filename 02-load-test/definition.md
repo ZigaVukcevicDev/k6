@@ -3,10 +3,11 @@
 Table of contents
 
 - [I. Definition](#i-definition)
-- [II. Key characteristics](#ii-key-characteristics)
-- [III. Practical examples](#iii-practical-examples)
-- [IV. Users and time](#iv-users-and-time)
-- [V. Examples with k6](#v-examples-with-k6)
+- [II. Scheme](#ii-scheme)
+- [III. Key characteristics](#iii-key-characteristics)
+- [IV. Practical examples](#iv-practical-examples)
+- [V. Users and time](#v-users-and-time)
+- [VI. Examples with k6](#vi-examples-with-k6)
   - [a) Simple example](#a-simple-example)
   - [b) Runnable example](#b-runnable-example)
 
@@ -17,6 +18,8 @@ Table of contents
 > Easy explanation 
 >
 > Checking if a bridge can safely carry the daily traffic of cars over time.
+
+## II. Scheme
 
 ![Chart](chart.png)
 
