@@ -17,4 +17,5 @@ The examples help you **quickly understand** what each test is for, how to write
 ### Resources
 
 - [What is Smoke Testing? | Definition from TechTarget](https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing)
+- [What is Load Testing? | Splunk](https://www.splunk.com/en_us/blog/learn/load-testing.html)
 - [Performance Testing: Introduction to k6 for Beginners](https://www.udemy.com/course/k6-load-testing-performance-testing/)
