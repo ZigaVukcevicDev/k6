@@ -18,6 +18,8 @@ Table of contents
 >
 > Checking if a bridge can safely carry the daily traffic of cars over time.
 
+![Chart](chart.png)
+
 ## II. Key characteristics
 
 - Focused on expected load: Simulates real-life usage scenarios with many users.
