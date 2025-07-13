@@ -23,7 +23,7 @@ Table of contents
 
 > Easy explanation 
 >
-> Checking if a bridge can safely carry the daily traffic of cars and trucks over time.
+> Checking if a bridge can safely carry the daily traffic of cars over time.
 
 ## II. Key characteristics
 

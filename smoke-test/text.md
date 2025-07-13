@@ -23,7 +23,7 @@ Table of contents
 
 > Easy explanation 
 >
-> Checking if a bridge is safe enough for cars and trucks.
+> Checking if a bridge is safe enough for cars.
 
 The term comes from hardware testing, where engineers powered on a device and checked if smoke came out — if it did, testing stopped immediately.
 
