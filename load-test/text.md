@@ -58,9 +58,12 @@ import { check, sleep } from 'k6';
 
 export const options = {
   stages: [
-    { duration: '1m', target: 50 }, // ramp-up to 50 users
-    { duration: '3m', target: 50 }, // hold 50 users
-    { duration: '1m', target: 0 },  // ramp-down
+    // approx. 10% of duration, ramp-up to 100 users
+    { duration: '3m', target: 100 }, 
+    // hold 100 users for 30m
+    { duration: '30m', target: 100 },  
+    // approx. 10% of duration, ramp-down to 0 users
+    { duration: '3m', target: 0 },  
   ],
   thresholds: {
     http_req_failed: ['rate<0.01'],    // <1% errors
@@ -91,28 +94,55 @@ k6 run load-test/script.js
 
 Output from k6:
 
-TODO
+![result](result.png)
 
 ##### Test summary
 
-TODO
+- Script simulated traffic to https://quickpizza.grafana.com:
+  - `contacts.php`
+  - `news.php`
+- Load pattern:
+  - Ramp-up: 0 → 50 VUs in 20s
+  - Sustained: 50 VUs for 3m
+  - Ramp-down: 50 → 0 VUs in 20s
+- Total duration: ~3m42s
+- 4452 iterations completed, ~20 iterations/sec
 
 ##### Observed behavior
 
-TODO
+- Application responded consistently under load.
+- No HTTP request failures observed (`0.00% failure rate`).
+- 95% of requests completed within 135.49ms (well below 1s threshold).
 
 ##### Metrics highlights
 
-TODO
+- Response time:
+  - Avg: 128.53ms
+  - p(90): 132.97ms
+  - p(95): 135.49ms
+  - Max: 312.49ms
+- Request rate:
+  - 40 requests/sec overall.
+- Iterations:
+  - 4452 iterations (avg iteration ~2.26s)
 
 ##### Data transferred
 
-TODO
+- Received: ~13 MB (~59 kB/s)
+- Sent: ~1.4 MB (~6.3 kB/s)
 
 ##### Overall analysis
 
-TODO
+Thresholds met:
+- p(95)<1000ms: 135.49ms
+- HTTP failures <1%: 0%
+
+Performance stable under 50 concurrent users.
 
 ##### Suggestions / takeaways
 
-TODO
+- Good performance baseline: The service is performant under moderate load.
+- Next steps:
+  - Test higher loads (e.g., 100+ VUs) for scalability limits.
+  - Add checks/assertions to validate content correctness.
+  - Monitor backend resource utilization (CPU, memory) alongside k6 metrics.

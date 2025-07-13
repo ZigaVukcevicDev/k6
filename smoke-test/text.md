@@ -117,7 +117,7 @@ Failing requests (404):
 
 - `http_req_failed: 40%` → 4 of 10 requests failed:
     - 2 due to DNS resolution errors (`no such host`),
-    - 2 due to 404 (not found).
+    - 2 due to 404.
 - Throughput:
     - `http_reqs: 10` total requests.
     - `0.464 req/s` request rate.
@@ -133,7 +133,7 @@ Failing requests (404):
 ##### Data transferred
 
 - `17 KB` received
-- `2,2 KB` sent
+- `2.2 KB` sent
   
   → Consistent with a low-traffic single-user test.
 
