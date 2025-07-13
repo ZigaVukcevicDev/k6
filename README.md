@@ -6,7 +6,7 @@ The examples help you **quickly understand** what each test is for, how to write
 
 | Type                             | Easy explanation                                                           | No. of virtual users | Execution time   |
 | -------------------------------- | -------------------------------------------------------------------------- | -------------------- | ---------------- |
-| [Smoke test](smoke-test/text.md) | Checking if a bridge is safe enough for cars.                              | 1                    | 5–15 min         |
+| [Smoke test](smoke-test/text.md) | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
 | [Load test](load-test/text.md)   | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10 min to 1 hour |
 | [Stress test (TODO)]()           |                                                                            |                      |                  |
 | [Breakpoint test (TODO)]()       |                                                                            |                      |                  |
@@ -14,9 +14,7 @@ The examples help you **quickly understand** what each test is for, how to write
 
 > To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 
-<!--
-- performance tests
-    significant number of users
-- stress tests
-- spike tests
--->
+### Resources
+
+- [What is Smoke Testing? | Definition from TechTarget](https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing)
+- [Performance Testing: Introduction to k6 for Beginners](https://www.udemy.com/course/k6-load-testing-performance-testing/)
