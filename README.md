@@ -21,4 +21,5 @@ To install k6 see [instructions](https://grafana.com/docs/k6/latest/set-up/insta
 
 - [What is Smoke Testing? | Definition from TechTarget](https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing)
 - [What is Load Testing? | Splunk](https://www.splunk.com/en_us/blog/learn/load-testing.html)
+- [Stress testing (software) - Wikipedia](https://en.wikipedia.org/wiki/Stress_testing_(software))
 - [Performance Testing: Introduction to k6 for Beginners](https://www.udemy.com/course/k6-load-testing-performance-testing/)
