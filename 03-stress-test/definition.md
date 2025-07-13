@@ -35,7 +35,7 @@ Table of contents
 
 - Number of virtual users:
   
-  Simulates load above the expected. Example: if load is 500 users - test with 750–1000 users (**1,5-2x of load**).
+  Simulates load above the expected. Example: if load is 500 users - test with 750–1000 users (**1,5-2x of the load**).
 
 - Execution time:
 
@@ -51,7 +51,7 @@ import { check, sleep } from 'k6';
 
 export const options = {
   stages: [
-    // approx. 10% of duration, ramp-up to 1,5-2x of load users
+    // approx. 10% of duration, ramp-up to 1,5-2x of the load users
     { duration: '3m', target: 150 }, 
     // hold 150 users for 30m
     { duration: '30m', target: 150 },  
