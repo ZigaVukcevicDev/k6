@@ -52,8 +52,8 @@ Output from k6:
 
 ### Data transferred
 
-Total received: ~20 MB (~89 kB/sec).
-Total sent: ~2.1 MB (~9.5 kB/sec).
+- Total received: ~20 MB (~89 kB/sec).
+- Total sent: ~2.1 MB (~9.5 kB/sec).
 
 ### Overall analysis
 
