@@ -21,4 +21,4 @@ export default function () {
 
   http.get(`${url}/news.php`); 
   sleep(1);
-}
+};
