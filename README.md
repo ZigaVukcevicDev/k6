@@ -8,9 +8,9 @@ The examples help you **quickly understand** what each test is for, how to write
 | -------------------------------- | -------------------------------------------------------------------------- | -------------------- | ---------------- |
 | [Smoke test](smoke-test/text.md) | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
 | [Load test](load-test/text.md)   | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10 min to 1 hour |
-| Stress test (TODO)               |                                                                            |                      |                  |
-| Breakpoint test (TODO)           |                                                                            |                      |                  |
-| Soak test (TODO)                 |                                                                            |                      |                  |
+| Stress test                      | TODO                                                                       | TODO                 | TODO             |
+| Breakpoint test                  | TODO                                                                       | TODO                 | TODO             |
+| Soak test                        | TODO                                                                       | TODO                 | TODO             |
 
 > To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 
