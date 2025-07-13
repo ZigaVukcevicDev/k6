@@ -34,26 +34,26 @@ Output from k6:
   - Ramp-up: 0 → 50 VUs in 20s
   - Sustained: 50 VUs for 3m
   - Ramp-down: 50 → 0 VUs in 20s
-- Total duration: ~3m42s
+- Total duration: ~3m41.8s
 - 4452 iterations completed, ~20 iterations/sec
 
 ### Observed behavior
 
 - Application responded consistently under load.
 - No HTTP request failures observed (`0.00% failure rate`).
-- 95% of requests completed within 135.49ms (well below 1s threshold).
+- 95% of requests completed within 152.3ms (well below 1s threshold).
 
 ### Metrics highlights
 
 - Response time:
-  - Avg: 128.53ms
-  - p(90): 132.97ms
-  - p(95): 135.49ms
-  - Max: 312.49ms
+  - Avg: 132.93ms
+  - p(90): 135.1ms
+  - p(95): 152.3ms
+  - Max: 3.98s
 - Request rate:
-  - 40 requests/sec overall.
+  - 39.96 requests/sec overall.
 - Iterations:
-  - 4452 iterations (avg iteration ~2.26s)
+  - 4432 iterations (avg iteration ~2.27s)
 
 ### Data transferred
 
@@ -63,7 +63,7 @@ Output from k6:
 ### Overall analysis
 
 Thresholds met:
-- p(95)<1000ms: 135.49ms
+- p(95)<1000ms: 152.3ms
 - HTTP failures <1%: 0%
 
 Performance stable under 50 concurrent users.

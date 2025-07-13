@@ -57,15 +57,15 @@ Failing requests (404):
     - 2 due to 404.
 - Throughput:
     - `http_reqs: 10` total requests.
-    - `0.464 req/s` request rate.
+    - `0.465 req/s` request rate.
 - Response times for successful requests:
-    - avg = 109.56 ms
-    - p(90) = 140.71 ms
-    - p(95) = 144.58 ms
+    - avg = 104.34 ms
+    - p(90) = 132.22 ms
+    - p(95) = 132.82 ms
     
     These are all well below the common threshold of 300 ms → good latency.
 
-- Iteration duration: ~10.76 s per iteration (due to `sleep(1)` calls after each request).
+- Iteration duration: ~10.74 s per iteration (due to `sleep(1)` calls after each request).
 
 ### Data transferred
 
