@@ -25,7 +25,7 @@ The term comes from hardware testing, where engineers powered on a device and ch
 
 TODO
 
-![Chart](chart.png)
+![Scheme](scheme.png)
 
 ## III. Key characteristics
 

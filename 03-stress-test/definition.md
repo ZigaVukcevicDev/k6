@@ -23,7 +23,7 @@ Table of contents
 
 TODO
 
-![Chart](chart.png)
+![Scheme](scheme.png)
 
 ## III. Key characteristics
 
