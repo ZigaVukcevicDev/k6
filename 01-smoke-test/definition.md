@@ -3,10 +3,11 @@
 Table of contents
 
 - [I. Definition](#i-definition)
-- [II. Key characteristics](#ii-key-characteristics)
-- [III. Practical examples](#iii-practical-examples)
-- [IV. Users and time](#iv-users-and-time)
-- [V. Examples with k6](#v-examples-with-k6)
+- [II. Scheme](#ii-scheme)
+- [III. Key characteristics](#iii-key-characteristics)
+- [IV. Practical examples](#iv-practical-examples)
+- [V. Users and time](#v-users-and-time)
+- [VI. Examples with k6](#vi-examples-with-k6)
   - [a) Simple example](#a-simple-example)
   - [b) Runnable example](#b-runnable-example)
 
@@ -20,7 +21,13 @@ Table of contents
 
 The term comes from hardware testing, where engineers powered on a device and checked if smoke came out — if it did, testing stopped immediately.
 
-## II. Key characteristics
+## II. Scheme
+
+TODO
+
+![Chart](chart.png)
+
+## III. Key characteristics
 
 - Shallow and broad: Focuses on covering major features, not detailed behavior.
 - Quick execution: Designed to run quickly to validate build stability.
@@ -28,13 +35,13 @@ The term comes from hardware testing, where engineers powered on a device and ch
 - Automated or manual: Can be automated but is often a simple checklist when manual.
 - Frequent execution: Typically run on every new build to catch show-stopper issues early.
 
-## III. Practical examples
+## IV. Practical examples
 
 - Is API returning response?
 - Does main page loads?
 - Can user login?
 
-## IV. Users and time
+## V. Users and time
 
 - Number of virtual users:
   
@@ -44,7 +51,7 @@ The term comes from hardware testing, where engineers powered on a device and ch
 
   Smoke tests should be **fast** - ideal duration is a **few minutes** (e.g., 5–15 min max), depending on project complexity, to quickly give feedback on build health.
 
-## V. Examples with k6
+## VI. Examples with k6
 
 ### a) Simple example
 
