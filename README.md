@@ -14,6 +14,8 @@ The examples help you **quickly understand** what each test is for, how to write
 
 > To better understand the terms in testing and k6 see [vocabulary](vocabulary.md).
 
+To install k6 see [instructions](https://grafana.com/docs/k6/latest/set-up/install-k6/).
+
 ### Resources
 
 - [What is Smoke Testing? | Definition from TechTarget](https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing)
