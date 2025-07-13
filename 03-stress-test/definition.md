@@ -35,18 +35,44 @@ Table of contents
 
 - Number of virtual users:
   
-  Simulates load above the expected peak. Example: if peak = 500 users → test with 700–1000 users.
+  Simulates load above the expected. Example: if load is 500 users - test with 750–1000 users (**1,5-2x of load**).
 
 - Execution time:
 
-  Typically 15 min to 1 h, long enough to observe behavior under prolonged stress.
+  Typically **10 min to 1 h**, long enough to observe behavior under prolonged stress.
 
 ## V. Examples with k6
 
 ### a) Simple example
 
 ```js
-TODO
+import http from 'k6/http';
+import { check, sleep } from 'k6';
+
+export const options = {
+  stages: [
+    // approx. 10% of duration, ramp-up to 1,5-2x of load users
+    { duration: '3m', target: 150 }, 
+    // hold 150 users for 30m
+    { duration: '30m', target: 150 },  
+    // approx. 10% of duration, ramp-down to 0 users
+    { duration: '3m', target: 0 },  
+  ],
+  thresholds: {
+    http_req_failed: ['rate<0.01'],    // <1% errors
+    http_req_duration: ['p(95)<1000'], // 95% of requests < 1s
+  },
+};
+
+export default function () {
+  const response = http.get('https://api.example.com/products');
+
+  check(response, {
+    'status is 200': (res) => res.status === 200,
+  });
+
+  sleep(1);
+}
 ```
 
 ### b) Runnable example
