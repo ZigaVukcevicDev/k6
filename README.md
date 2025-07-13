@@ -7,8 +7,8 @@ The examples help you **quickly understand** what each test is for, how to write
 | Type                                                | Easy explanation                                                           | No. of virtual users | Execution time   |
 | --------------------------------------------------- | -------------------------------------------------------------------------- | -------------------- | ---------------- |
 | [Smoke test](01-smoke-test/definition.md)           | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
-| [Load test](02-load-test/definition.md)             | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10 min to 1 hour |
-| [Stress test](03-stress-test/definition.md)         | Checking how a bridge behaves when overloaded with more cars than usual.                                                                       | 1,5-2x of the load                 | 10 min to 1 hour             |
+| [Load test](02-load-test/definition.md)             | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10-60 min |
+| [Stress test](03-stress-test/definition.md)         | Checking how a bridge behaves when overloaded with more cars than usual.                                                                       | 1,5-2x of the load                 | 10-60 min             |
 | [Spike test](04-stress-test/definition.md)         | TODO                                                                       | TODO                 | TODO             |
 | [Breakpoint test](05-breakpoint-test/definition.md) | TODO                                                                       | TODO                 | TODO             |
 | [Soak test](06-soak-test/definition.md)             | TODO                                                                       | TODO                 | TODO             |
