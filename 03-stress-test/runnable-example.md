@@ -3,12 +3,13 @@
 Table of contents
 
 - [Script and how to run](#script-and-how-to-run)
-- [Test summary](#test-summary)
-- [Observed behavior](#observed-behavior)
-- [Metrics highlights](#metrics-highlights)
-- [Data transferred](#data-transferred)
-- [Overall analysis](#overall-analysis)
-- [Suggestions / takeaways](#suggestions--takeaways)
+- [Analysis](#analysis)
+  - [Test summary](#test-summary)
+  - [Observed behavior](#observed-behavior)
+  - [Metrics highlights](#metrics-highlights)
+  - [Data transferred](#data-transferred)
+  - [Overall analysis](#overall-analysis)
+  - [Suggestions / takeaways](#suggestions--takeaways)
 
 ## Script and how to run
 
@@ -24,26 +25,26 @@ Output from k6:
 
 ![result](result.png)
 
-## Test summary
+### Test summary
 
 TODO
 
-## Observed behavior
+### Observed behavior
 
 TODO
 
-## Metrics highlights
+### Metrics highlights
 
 TODO
 
-## Data transferred
+### Data transferred
 
 TODO
 
-## Overall analysis
+### Overall analysis
 
 TODO
 
-## Suggestions / takeaways
+### Suggestions / takeaways
 
 TODO

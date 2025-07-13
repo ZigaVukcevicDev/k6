@@ -3,12 +3,13 @@
 Table of contents
 
 - [Script and how to run](#script-and-how-to-run)
-- [Test summary](#test-summary)
-- [Observed behavior](#observed-behavior)
-- [Metrics highlights](#metrics-highlights)
-- [Data transferred](#data-transferred)
-- [Overall analysis](#overall-analysis)
-- [Suggestions / takeaways](#suggestions--takeaways)
+- [Analysis](#analysis)
+  - [Test summary](#test-summary)
+  - [Observed behavior](#observed-behavior)
+  - [Metrics highlights](#metrics-highlights)
+  - [Data transferred](#data-transferred)
+  - [Overall analysis](#overall-analysis)
+  - [Suggestions / takeaways](#suggestions--takeaways)
 
 ## Script and how to run
 
@@ -24,7 +25,7 @@ Output from k6:
 
 ![result](result.png)
 
-## Test summary
+### Test summary
 
 - Script simulated traffic to https://quickpizza.grafana.com:
   - `contacts.php`
@@ -36,13 +37,13 @@ Output from k6:
 - Total duration: ~3m42s
 - 4452 iterations completed, ~20 iterations/sec
 
-## Observed behavior
+### Observed behavior
 
 - Application responded consistently under load.
 - No HTTP request failures observed (`0.00% failure rate`).
 - 95% of requests completed within 135.49ms (well below 1s threshold).
 
-## Metrics highlights
+### Metrics highlights
 
 - Response time:
   - Avg: 128.53ms
@@ -54,12 +55,12 @@ Output from k6:
 - Iterations:
   - 4452 iterations (avg iteration ~2.26s)
 
-## Data transferred
+### Data transferred
 
 - Received: ~13 MB (~59 kB/s)
 - Sent: ~1.4 MB (~6.3 kB/s)
 
-## Overall analysis
+### Overall analysis
 
 Thresholds met:
 - p(95)<1000ms: 135.49ms
@@ -67,7 +68,7 @@ Thresholds met:
 
 Performance stable under 50 concurrent users.
 
-## Suggestions / takeaways
+### Suggestions / takeaways
 
 - Good performance baseline: The service is performant under moderate load.
 - Next steps:
