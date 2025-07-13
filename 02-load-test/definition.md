@@ -23,7 +23,7 @@ Table of contents
 
 ![Chart](chart.png)
 
-## II. Key characteristics
+## III. Key characteristics
 
 - Focused on expected load: Simulates real-life usage scenarios with many users.
 - Sustained execution: Runs over a longer period to gather performance metrics.
@@ -31,12 +31,12 @@ Table of contents
 - Performance benchmarks: Helps define acceptable response times, throughput, and error rates.
 - Detects bottlenecks: Reveals performance limitations under typical usage.
 
-## III. Practical examples
+## IV. Practical examples
 
 - Can 1000 users browse the shop at the same time?
 - How fast does the API respond when 500 concurrent users call it?
 
-## IV. Users and time
+## V. Users and time
 
 - Number of virtual users:
   
@@ -46,7 +46,7 @@ Table of contents
 
   Usually between **10-60 minutes** (or longer), long enough to measure system behavior under sustained load.
 
-## V. Examples with k6
+## VI. Examples with k6
 
 ### a) Simple example
 

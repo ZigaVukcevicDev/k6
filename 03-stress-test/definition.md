@@ -3,10 +3,11 @@
 Table of contents
 
 - [I. Definition](#i-definition)
-- [II. Key characteristics](#ii-key-characteristics)
-- [III. Practical examples](#iii-practical-examples)
-- [IV. Users and time](#iv-users-and-time)
-- [V. Examples with k6](#v-examples-with-k6)
+- [II. Scheme](#ii-scheme)
+- [III. Key characteristics](#iii-key-characteristics)
+- [IV. Practical examples](#iv-practical-examples)
+- [V. Users and time](#v-users-and-time)
+- [VI. Examples with k6](#vi-examples-with-k6)
   - [a) Simple example](#a-simple-example)
   - [b) Runnable example](#b-runnable-example)
 
@@ -18,7 +19,11 @@ Table of contents
 >
 > Checking how a bridge behaves when overloaded with more cars than usual.
 
-## II. Key characteristics
+## II. Scheme
+
+![Chart](chart.png)
+
+## III. Key characteristics
 
 - Simulates extreme conditions: Load well above expected peak traffic.
 - Sustained stress: Holds the system at high load to observe performance degradation.
@@ -26,12 +31,12 @@ Table of contents
 - Recovery observation: Checks whether the system can return to normal performance after removing stress.
 - Capacity planning: Helps determine safe operational limits and buffer capacity.
 
-## III. Practical examples
+## IV. Practical examples
 
 - How does the system perform when subjected to 1.5x or 2x peak traffic for an hour?
 - Does the application slow down gracefully or fail suddenly under heavy stress?
 
-## IV. Users and time
+## V. Users and time
 
 - Number of virtual users:
   
@@ -41,7 +46,7 @@ Table of contents
 
   Typically **10 min to 1 h**, long enough to observe behavior under prolonged stress.
 
-## V. Examples with k6
+## VI. Examples with k6
 
 ### a) Simple example
 
