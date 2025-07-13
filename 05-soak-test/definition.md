@@ -9,13 +9,6 @@ Table of contents
 - [V. Examples with k6](#v-examples-with-k6)
   - [a) Simple example](#a-simple-example)
   - [b) Runnable example](#b-runnable-example)
-    - [Analysis](#analysis)
-      - [Test summary](#test-summary)
-      - [Observed behavior](#observed-behavior)
-      - [Metrics highlights](#metrics-highlights)
-      - [Data transferred](#data-transferred)
-      - [Overall analysis](#overall-analysis)
-      - [Suggestions / takeaways](#suggestions--takeaways)
 
 ## I. Definition
 
@@ -53,38 +46,4 @@ TODO
 
 ### b) Runnable example
 
-See script for [soak test](script.js).
-
-```bash
-k6 run 05-soak-test/script.js
-```
-
-#### Analysis
-
-Output from k6:
-
-![result](result.png)
-
-##### Test summary
-
-TODO
-
-##### Observed behavior
-
-TODO
-
-##### Metrics highlights
-
-TODO
-
-##### Data transferred
-
-TODO
-
-##### Overall analysis
-
-TODO
-
-##### Suggestions / takeaways
-
-TODO
+See [runnable example](runnable-example.md).
