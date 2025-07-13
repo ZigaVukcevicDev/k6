@@ -23,8 +23,6 @@ The term comes from hardware testing, where engineers powered on a device and ch
 
 ## II. Scheme
 
-TODO
-
 ![Scheme](scheme.png)
 
 ## III. Key characteristics
