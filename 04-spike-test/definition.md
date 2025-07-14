@@ -21,8 +21,6 @@ Table of contents
 
 ## II. Scheme
 
-TODO
-
 ![Scheme](scheme.png)
 
 ## III. Key characteristics
