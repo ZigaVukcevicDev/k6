@@ -9,7 +9,7 @@ The examples help you **quickly understand** what each test is for, how to write
 | [Smoke test](01-smoke-test/definition.md)           | Checking if a bridge is safe enough for cars.                              | 1                    | 5-15 min         |
 | [Load test](02-load-test/definition.md)             | Checking if a bridge can safely carry the daily traffic of cars over time. | 100–1000             | 10-60 min |
 | [Stress test](03-stress-test/definition.md)         | Checking how a bridge behaves when overloaded with more cars than usual.                                                                       | 1,5-2x of the load                 | 10-60 min             |
-| [Spike test](04-spike-test/definition.md)         | TODO                                                                       | TODO                 | TODO             |
+| [Spike test](04-spike-test/definition.md)         | Checking how a bridge reacts when an unexpected rush of cars crosses it at once.                                                                       | 2–3x of the load                 | 5-15 min, spike itself 1–2 min             |
 | [Breakpoint test](05-breakpoint-test/definition.md) | TODO                                                                       | TODO                 | TODO             |
 | [Soak test](06-soak-test/definition.md)             | TODO                                                                       | TODO                 | TODO             |
 
